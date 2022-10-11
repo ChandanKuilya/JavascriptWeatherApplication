@@ -120,7 +120,7 @@ document
     }
   });
 
-weather.fetchWeather("Kolkata");
+weather.fetchWeather("India");
 
 document
   .querySelector(".search-bar")
