@@ -103,7 +103,7 @@ let geocode = {
       navigator.geolocation.getCurrentPosition(success, console.error);
     }
     else {
-      weather.fetchWeather("Kolkata");
+      weather.fetchWeather("India");
     }
   }
 };
