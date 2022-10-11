@@ -103,7 +103,7 @@ let geocode = {
       navigator.geolocation.getCurrentPosition(success, console.error);
     }
     else {
-      weather.fetchWeather("India");
+      weather.fetchWeather("Norway");
     }
   }
 };
@@ -120,7 +120,7 @@ document
     }
   });
 
-weather.fetchWeather("India");
+weather.fetchWeather("Norway");
 
 document
   .querySelector(".search-bar")
